@@ -1,0 +1,100 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom styles */
+
+/* Shared */
+.container {
+  padding: 20px;
+}
+
+.header-container {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.bookmark-button {
+  padding: 5px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 5px;
+}
+
+/* Articles */
+.article {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  padding: 0 20px 20px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.article-info-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.article-title {
+  padding-left: 40px;
+}
+
+.article-author {
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+/* Comments */
+.comment-list {
+  list-style: none;
+}
+
+.comment-item {
+  margin-bottom: 12px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.comment-author {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.author-label {
+  font-style: italic;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+/* Bookmarks */
+
+.bookmark-header-container {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.view-bookmarks {
+  margin-bottom: 10px;
+  background: lightskyblue;
+  color: white;
+}
